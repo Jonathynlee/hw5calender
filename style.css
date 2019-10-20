@@ -1,0 +1,51 @@
+.header{
+    text-align: center;
+    border-bottom:5px solid  black 
+}
+.mainDivRow{
+  
+min-height:50px;
+}
+.leftBox{
+    background-color:white;
+    border:1px solid grey;
+    border-left:none;
+}
+.centerBox{
+border-top:1px solid white;
+border-bottom:1px solid white;
+background-color: rgb(93, 212, 93);  
+font-size:10px;
+text-align: left;
+line-height:10px;
+vertical-align: top;
+text-overflow:
+}
+.rightBox{
+    
+    border-left:2px solid rgb(10, 102, 138);
+    border-top:1px solid white;
+    border-right:none;
+border-bottom:1px solid white;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+}
+.rightBox{
+    background-color:rgb(11, 159, 218);
+    transition:.5s;
+    color:white;
+}
+.rightBox:hover{
+    background-color:rgb(140, 211, 240);
+    transition:.5s;
+}
+.rightBox:active{
+    background-color:rgb(255, 255, 255);
+    transition:.2s;
+}
+
+
+.content{
+    margin-top:15px;
+
+}
