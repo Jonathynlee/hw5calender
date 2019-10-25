@@ -4,7 +4,7 @@ var time = moment().format('LT');
 if (time.charAt(time.length-2) == "A"){
 var timeHourInt = parseInt(moment().format("hh"));
 }else{
-    var timeHourInt = parseInt(moment().format("hh")+12);
+    var timeHourInt = parseInt(moment().format("hh"))+12;
 }
 var infoSlot = [];
 
